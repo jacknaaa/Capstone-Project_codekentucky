@@ -12,3 +12,6 @@
 3. Activate the virtual environment. source venv/Scripts/activate
 4. Install the required packages. pip install -r requirements.txt
 5. When you are done working on your repo, deactivate the virtual environment. deactivate
+
+# Notes
+"pip freeze > requirements.txt"
