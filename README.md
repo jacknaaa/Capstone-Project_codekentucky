@@ -1,8 +1,10 @@
 # Capstone-Project_codekentucky
 
-
-
-
+# install pip list
+1. pip install pandas
+2. pip install seaborn
+3. pip install matplotlib
+or call install from pip install -r requirements.txt
 
 # Virutal Environment Instructions
 1. After you have cloned the repo to your machine, navigate to the project folder in GitBash/Terminal.
