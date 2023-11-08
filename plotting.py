@@ -16,7 +16,7 @@ categories_count=df["Category"].value_counts()
 # Name: count, dtype: int64
 
 # Plotting a pie chart Most Popular Categories
-plt.figure(figsize=(20, 20))
+plt.figure(figsize=(10, 10))
 plt.pie(categories_count, labels=categories_count.index, autopct='%1.1f%%', startangle=90, colors=sns.color_palette("viridis"))
 plt.title('Most Popular Categories')
 plt.show()
