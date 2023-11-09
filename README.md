@@ -15,3 +15,4 @@
 
 # Notes
 "pip freeze > requirements.txt"
+https://docs.google.com/document/d/1cDGrgHG52hriAX6A1OFMy4o9CeMlNHp4cvhbMw7nhsA/edit
