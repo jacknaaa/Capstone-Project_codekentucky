@@ -1,5 +1,7 @@
 # Capstone-Project_codekentucky
-
+1. The project will be able to read .CSV and insert data to Progressql
+2. using pandas to select data from Progressql and ploting.
+3. create online bokeh chart
 # install pip list
 1. pip install pandas
 2. pip install seaborn
