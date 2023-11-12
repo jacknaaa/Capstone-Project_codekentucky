@@ -13,9 +13,6 @@ df=pd.DataFrame(pd.read_csv("data\shopping_trends_updated.csv"))
 # Item Purchases by Females
 
 
-    
-
-
 def most_popular_categories():
     categories_count=df["Category"].value_counts()
     # print(categories_count)

@@ -1,15 +1,18 @@
+from config import DB_CONFIG, CSV_FILE_PATH_CONFIG
 import pandas as pd
 import psycopg2
 from sqlalchemy import create_engine
 
-#your actual database connection details
-dbname = 'shopping_trends'
-user = 'postgres'
-password = 'password'
-host = 'localhost'
-port = '5432'
-# Replace with the path to your CSV file
-csv_file_path = 'data\shopping_trends_updated.csv'
+
+# Extracting database connection details from the configuration
+dbname = DB_CONFIG['dbname']
+user = DB_CONFIG['user']
+password = DB_CONFIG['password']
+host = DB_CONFIG['host']
+port = DB_CONFIG['port']
+
+# get path file csv
+csv_file_path = CSV_FILE_PATH_CONFIG['csv_shopping_trends']
 
 # Construct the connection string
 connection_string = f"dbname={dbname} user={user} password={password} host={host} port={port}"
