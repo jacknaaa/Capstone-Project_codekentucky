@@ -15,7 +15,7 @@
 4. Install the required packages. pip install -r requirements.txt
 5. When you are done working on your repo, deactivate the virtual environment. deactivate
 
-# Set up Progressql
+# Setup Progressql
 1. Go to this link "https://www.postgresql.org/download/"
 2. Select your operating system family and Dlownlaod
 3. Install by !!! Remember username and password !!!
