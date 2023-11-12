@@ -15,6 +15,13 @@
 4. Install the required packages. pip install -r requirements.txt
 5. When you are done working on your repo, deactivate the virtual environment. deactivate
 
+# Set up Progressql
+1. Go to this link "https://www.postgresql.org/download/"
+2. Select your operating system family and Dlownlaod
+3. Install by !!! Remember username and password !!!
+4. Set up port 5432
+5. Finsh!!
+
 # Notes
 "pip freeze > requirements.txt"
 https://docs.google.com/document/d/1cDGrgHG52hriAX6A1OFMy4o9CeMlNHp4cvhbMw7nhsA/edit
